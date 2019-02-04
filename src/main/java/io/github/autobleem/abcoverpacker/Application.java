@@ -95,6 +95,9 @@ public class Application {
             ps.close();
             
         }
+        PreparedStatement pc = con.prepareStatement("vacuum;");
+        pc.executeUpdate();
+        pc.close();
         con.close();
         
     }
