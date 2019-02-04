@@ -16,3 +16,7 @@ type:
 java -jar abcoverpacker.jar -p coversU.db coversU_export
 ```
 to put back all the updated files back to database - the database now has all covers reloaded
+
+you can do the same on J or P cover databases.
+
+## NOTE: do not try to import back files between regions .. no covers will be updated
